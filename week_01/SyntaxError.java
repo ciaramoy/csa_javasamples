@@ -1,3 +1,6 @@
+/*
+Fix ALL errors for a grade
+*/
 public class SyntaxError{
     public static void main(String[] args) {
         //Fix the most obvious errors first
