@@ -31,14 +31,14 @@ System.out.println(“b.Hello World”);
 System.out.print(“c.Hello World”);
 System.out.print(“d.Hello World”);
 ```
-### Escape sequences
+## Escape sequences
 ```
 System.out.print(“a.\”Hello World\” ”);
 System.out.print(“b.\nHello World\n”);
 System.out.print(“c.\\Hello World”);
 ```
 
-### Arithmetic Expressions
+## Arithmetic Expressions
 Addition, Subtraction, Integer Division, Division, Modulus Division
 ```
 System.out.println(5+5);
@@ -59,7 +59,7 @@ Arithmetic Exception
 ```
 System.out.println(5/0); //Arithmetic Exception
 ```
-### Compound Arithmetic Expressions
+## Compound Arithmetic Expressions
 BODMAS PEMDAS GEMS. whatever you call it
 ```
 double result = 10 - 3 * 3 / 2 + 6; 
@@ -82,7 +82,7 @@ System.out.println(result);
 result = (10 - 3) * 3 % (2 + 6); 
 System.out.println(result);
 ```
-## 1.4 Assignment and Input
+# 1.4 Assignment and Input
 Empty Strings and Null
 ```
 String string1 = "";
@@ -103,7 +103,7 @@ result = result + result;
 System.out.println(result);
 ```
 
-### Input with Scanner Class
+## Input with Scanner Class
 ```
 import java.util.Scanner; // import the Scanner class 
 
@@ -141,7 +141,7 @@ class MyProgram {
   }
 }
 ```
-## 1.6 Compound Assignment Operators
+# 1.6 Compound Assignment Operators
 Shortcuts
 Adding
 ```
@@ -193,7 +193,7 @@ num2/= 2;
 System.out.println(num1);
 System.out.println(num2);
 ```
-### Post increment and post decrement
+## Post increment and post decrement
 ```
 int num1= 10;
 int num2= 10;
@@ -204,8 +204,8 @@ System.out.println(num1);
 System.out.println(num2);
 ```
 
-## 1.5 Double vs Int
-### Explicit Casting
+# 1.5 Double vs Int
+## Explicit Casting
 __TRACE THROUGH THIS CODE ON PAPER__
 Doing integer division with doubles
 ```
@@ -253,13 +253,13 @@ double num1 = 13.9;
 num1 = (int)num1+ (double)11/(double)2;
 System.out.println(num1);
 ```
-### Implicit Type Casting / Automatic Casting 
+## Implicit Type Casting / Automatic Casting 
 ```
 int num1 = 3;
 double num2 = num1;
 System.out.println(num2);
 ```
-### Manual rounding
+## Manual rounding
 Rounding up towards positive infinity
 ```
 double num = 3.5;
@@ -271,14 +271,14 @@ Rounding down towards negative infinity
 double num = -3.5;
 System.out.println((int) (num-0.5));
 ```
-### Range of Integers
+## Range of Integers
 ```
 System.out.println(Integer.MIN_VALUE);
 System.out.println(Integer.MAX_VALUE);
 System.out.println(Integer.MIN_VALUE - 1);
 System.out.println(Integer.MAX_VALUE + 1);
 ```
-### Floating Pt Error
+## Floating Pt Error
 eg1
 ```
 double first = 0.1;
