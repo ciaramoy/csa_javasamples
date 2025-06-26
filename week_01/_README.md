@@ -52,7 +52,7 @@ System.out.println(10%4);
 System.out.println(10%2);
 System.out.println(10%7);
 ```
-##Arithmetic
+## Arithmetic
 ```
 System.out.println(5/0); //Arithmetic Exception
 ```
@@ -97,4 +97,43 @@ double result = 10 - 3 * 3 % 2 + 6;
 System.out.println(result);
 result = result + result;
 System.out.println(result);
+```
+
+## Scanner
+```
+import java.util.Scanner; // import the Scanner class 
+
+class Main {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    
+    // Enter username and press Enter
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+  }
+}
+```
+Scanning Integers
+```
+import java.util.Scanner; // import the Scanner class 
+
+class MyProgram {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+    int myInt;
+    
+    System.out.println("Enter integer number");
+    myInt = myObj.nextInt(); // DOES NOT CONSUME NEWLINE - \n
+    //myObj.nextLine(); 
+    System.out.println("Enter username"); 
+    userName = myObj.nextLine();   
+       
+    System.out.println("Username is: " + userName);        
+    System.out.println("Number is: " + myInt);        
+  }
+}
 ```
