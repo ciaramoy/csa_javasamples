@@ -1,5 +1,5 @@
 These are the code snippets from class
-## 1.2 Vars & DataTypes
+# 1.2 Vars & DataTypes
 Printing variables of different datatypes
 ```
 int myInt = 30;
@@ -23,7 +23,7 @@ String otherObject= new String(“Babbage”);
 System.out.println(firstName);
 System.out.println(lastName);
 ```
-## 1.3 Expressions and Output
+# 1.3 Expressions and Output
 Print vs. Println
 ```
 System.out.print(“a.Hello World”);
@@ -205,7 +205,7 @@ System.out.println(num2);
 ```
 
 ## 1.5 Double vs Int
-### Casting
+### Explicit Casting
 __TRACE THROUGH THIS CODE ON PAPER__
 Doing integer division with doubles
 ```
