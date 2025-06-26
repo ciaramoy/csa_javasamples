@@ -23,3 +23,78 @@ String otherObject= new String(“Babbage”);
 System.out.println(firstName);
 System.out.println(lastName);
 ```
+print versus println
+```
+System.out.print(“a.Hello World”);
+System.out.println(“b.Hello World”);
+System.out.print(“c.Hello World”);
+System.out.print(“d.Hello World”);
+```
+Escape sequences
+```
+System.out.print(“a.\”Hello World\” ”);
+System.out.print(“b.\nHello World\n”);
+System.out.print(“c.\\Hello World”);
+```
+Addition, Subtraction, Integer Division, Division, Modulus Division
+```
+System.out.println(5+5);
+System.out.println(10-5);
+System.out.println(5*5);
+
+System.out.println(10/3);
+System.out.println(10/3.0);
+System.out.println(10.0/3);
+System.out.println(10.0/3);
+
+System.out.println(10%3);
+System.out.println(10%4);
+System.out.println(10%2);
+System.out.println(10%7);
+```
+##Arithmetic
+```
+System.out.println(5/0); //Arithmetic Exception
+```
+BODMAS PEMDAS GEMS. whatever you call it
+```
+double result = 10 - 3 * 3 / 2 + 6; 
+System.out.println(result);
+result = (10 - 3) * 3 / 2 + 6; 
+System.out.println(result);
+result = (10 - 3) * 3 / (2 + 6); 
+System.out.println(result);
+result = (10 - 3) * 3.0 / 2 + 6; 
+System.out.println(result);
+result = (10 - 3) * 3.0 / (2 + 6); 
+System.out.println(result);
+```
+PEMDAS with Modulus division
+```
+double result = 10 - 3 * 3 % 2 + 6; 
+System.out.println(result);
+result = (10 - 3) * 3 % 2 + 6; 
+System.out.println(result);
+result = (10 - 3) * 3 % (2 + 6); 
+System.out.println(result);
+```
+Empty Strings and Null
+```
+String string1 = "";
+String string2 = new String("");
+String string3 = new String();
+String string4 = null;
+
+System.out.println(string1);
+System.out.println(string2);
+System.out.println(string3);
+System.out.println(string4);
+```
+
+Updating variables
+```
+double result = 10 - 3 * 3 % 2 + 6; 
+System.out.println(result);
+result = result + result;
+System.out.println(result);
+```
